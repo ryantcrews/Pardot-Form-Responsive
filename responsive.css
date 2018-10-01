@@ -1,0 +1,109 @@
+<style type="text/css">
+
+.col {
+    float:left;
+}
+.col:nth-child(2n+2){
+    clear:left;
+}
+
+/* Responsize */
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#pardot-form .form-field {
+	margin: 1em 0;
+	padding: 0;
+
+}
+
+#pardot-form .field-label {
+    width: 25%;
+}
+
+#pardot-form input.text, #pardot-form textarea {
+    width: 97%;
+    border-radius: 7px;
+    border:solid 1px #A9A9A9;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 16px;
+
+}
+
+#pardot-form input.textemail {
+    width: 97%;
+    border-radius: 7px;
+    border:solid 1px #A9A9A9;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 16px;
+}
+
+#pardot-form .no-label,
+#pardot-form .description,
+#pardot-form .value,
+#pardot-form .submit {
+    margin-left: 25%;
+}
+
+@media (max-width: 400px) {
+#pardot-form .field-label {
+        display: inline-block;
+        width: auto;
+        float: none;
+        text-align: left;
+}
+
+#pardot-form .no-label,
+#pardot-form .description,
+#pardot-form .value,
+#pardot-form .submit {
+        margin-left: 0;
+    }
+}
+
+
+/* End Responsiveness */
+
+label {display:none !important;}
+
+form.form p.submit input {
+   background-color:#f05557;
+   border:solid 1px #f05557;
+   font-size: 16px;
+   color:#fff;
+   font-weight:bold;
+   padding-top:8px;
+   padding-bottom:8px;
+   padding-right:3px;
+   -moz-border-radius:7px;
+   -webkit-border-radius:7px;
+   border-radius:7px;
+   position: relative;
+   width: 100%;
+   height: 40px;
+}
+
+#pardot-form textarea.standard {
+    height: 98px;
+    width: 97%;
+    border:solid 1px #A9A9A9;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    -moz-border-radius:7px;
+   -webkit-border-radius:7px;
+   border-radius:7px;
+   position: relative;
+
+
+ </style>
